@@ -31,5 +31,9 @@ class VueDeTestHTML implements VueInterface {
     /* Ecrire ici les accesseurs pour chaque nouvelle classe créée dans vueDeTestHTML.
      * Placer ensuite la signature de cette méthode dans la classe VueInterface
      */
+    
+    public function getGeneral(){
+        return new GeneralHTML();
+    }
 }
 ?>   
